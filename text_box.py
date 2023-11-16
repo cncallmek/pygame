@@ -48,7 +48,7 @@ while True:
         color = color_passive
 
     pygame.draw.rect(screen, color, input_rect)
-    pygame.draw.rect(screen, (0,0,0), input_rect2)
+    pygame.draw.rect(screen, (0, 0, 0), input_rect2)
 
     text_surface = base_font.render(user_text, True, (255, 255, 255))
     screen.blit(text_surface, (input_rect.x + 5, input_rect.y + 5))
